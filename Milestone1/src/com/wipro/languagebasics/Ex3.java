@@ -8,3 +8,4 @@ public class Ex3 {
 		System.out.println("The sum of "+a+" and "+b+" is "+c);
 	}
 }
+
