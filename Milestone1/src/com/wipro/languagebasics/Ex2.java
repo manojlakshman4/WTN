@@ -5,4 +5,3 @@ public class Ex2 {
 		System.out.println("Welcome "+args[0]);
 	}
 }
-
