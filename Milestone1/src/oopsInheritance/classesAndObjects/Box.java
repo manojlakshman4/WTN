@@ -1,4 +1,4 @@
-package com.wipro.classesAndObjects;
+package oopsInheritance.classesAndObjects;
 
 class Box {
 	int width;

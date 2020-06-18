@@ -1,4 +1,4 @@
-package com.wipro.classesAndObjects;
+package oopsInheritance.classesAndObjects;
 
 public class Ex1 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.wipro.classesAndObjects;
+package oopsInheritance.classesAndObjects;
 
 class Calculator {
 	 static int powerInt(int num1,int num2) {
