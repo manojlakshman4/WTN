@@ -1,4 +1,4 @@
-package com.wipro.flowcontrolstatements;
+package javaFundamentals.flowControlStatements;
 
 public class Ex4b {
 	public static void main(String[] args) {
