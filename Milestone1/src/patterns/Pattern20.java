@@ -1,13 +1,13 @@
-package com.wipro.patterns;
+package patterns;
 
-public class Pattern25 {
+public class Pattern20 {
 	public static void main(String[] args) {
 		int n=Integer.parseInt(args[0]);
 		for(int i=0;i<n;i++) {
-			for(int j=0;j<i;j++) {
+			for(int j=0;j<n-i-1;j++) {
 				System.out.print("  ");
 			}
-			for(int j=0;j<n-i;j++) {
+			for(int j=i;j>=0;j--) {
 				System.out.print(j+1+" ");
 			}
 			System.out.println();
