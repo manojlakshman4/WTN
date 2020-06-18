@@ -1,4 +1,4 @@
-package com.wipro.numbers;
+package numberBasedPrograms;
 
 public class Nums16 {
 	public static void main(String[] args) {

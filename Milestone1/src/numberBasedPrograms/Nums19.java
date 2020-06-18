@@ -1,4 +1,4 @@
-package com.wipro.numbers;
+package numberBasedPrograms;
 
 public class Nums19 {
 	public static void main(String[] args) {

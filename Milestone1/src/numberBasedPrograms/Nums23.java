@@ -1,4 +1,4 @@
-package com.wipro.numbers;
+package numberBasedPrograms;
 
 public class Nums23 {
 	public static void main(String[] args) {
