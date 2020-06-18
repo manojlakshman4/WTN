@@ -1,4 +1,4 @@
-package com.wipro.languagebasics;
+package javaFundamentals.languageBasics;
 
 public class Ex2 {
 	public static void main(String[] args) {
