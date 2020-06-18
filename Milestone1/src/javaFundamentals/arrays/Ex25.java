@@ -1,4 +1,4 @@
-package com.wipro.arrays;
+package javaFundamentals.arrays;
 
 public class Ex25 {
 	public static void main(String[] args) {
