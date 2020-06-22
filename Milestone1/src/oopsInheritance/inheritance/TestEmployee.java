@@ -5,17 +5,21 @@ class GetSet extends Employee{
 		this.VariableName=VariableName;
 	}
 	
-	GetSet(double AnnualSalary, int Year, String InsuranceNumber){
+	void setPerson(String VariableName) {
+		this.VariableName=VariableName;
+	}
+	
+	void setEmpDetails(double AnnualSalary, int Year, String InsuranceNumber){
 		this.AnnualSalary=AnnualSalary;
 		this.Year=Year;
 		this.InsuranceNumber=InsuranceNumber;
 	}
 	
 	void getPerson() {
-		System.out.println("Member variable name : "+VariableName);
+		System.out.println("Variable name : "+VariableName);
 	}
 	
-	void getEmp(){
+	void getEmpDetails(){
 		System.out.println("Annual Salary is : "+AnnualSalary);
 		System.out.println("Year the employee started to work : "+Year);
 		System.out.println("The national insurance number :"+InsuranceNumber);
@@ -25,8 +29,8 @@ class GetSet extends Employee{
 public class TestEmployee {
 	public static void main(String[] args) {
 		GetSet gs1=new GetSet("Manoj");
-		GetSet gs2=new GetSet(100000, 2021, "WTN3");
+		gs1.setEmpDetails(100000, 2021, "WTN3");
 		gs1.getPerson();
-		gs2.getEmp();
+		gs1.getEmpDetails();
 	}
 }
